@@ -6,6 +6,8 @@ export default function Home() {
 
       <a href="/posts/first-post" style={{ color: "#0070f3" }}>
         Read my first post →
+      <a href="/posts/second-post" style={{ color: "#0070f3", display: "block", marginTop: "10px" }}>
+        2nd Test Post →
       </a>
     </main>
   );
