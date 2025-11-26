@@ -17,6 +17,13 @@ export default function Home() {
       >
         2nd Test Post →
       </a>
+
+      <a
+        href="/posts/third-post"
+        style={{ color: "#0070f3", display: "block", marginTop: "10px" }}
+      >
+        3rd Test Post →
+      </a>
     </main>
   );
 }
