@@ -4,9 +4,17 @@ export default function Home() {
       <h1>Hello World 👋</h1>
       <p>Welcome to my simple Next.js blog running on Flux Orbit.</p>
 
-      <a href="/posts/first-post" style={{ color: "#0070f3" }}>
-        Read my first post →
-      <a href="/posts/second-post" style={{ color: "#0070f3", display: "block", marginTop: "10px" }}>
+      <a
+        href="/posts/first-post"
+        style={{ color: "#0070f3", display: "block", marginTop: "20px" }}
+      >
+        First Post →
+      </a>
+
+      <a
+        href="/posts/second-post"
+        style={{ color: "#0070f3", display: "block", marginTop: "10px" }}
+      >
         2nd Test Post →
       </a>
     </main>
